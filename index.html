@@ -23,29 +23,32 @@
             <div class="row">
                 <div class="col-md-4" id="B1" style="text-align: center">
                     <p><strong>Target Score</strong></p>
-                    <p></p>
+                    <p1 id="YZ" class="number"></p1>
                 </div>
 
                 <div class="col-md-4" id="B1" style="text-align: center">
                     <p><strong>Your Score</strong></p>
-                    <p></p>   
+                    <p1 id="ZX" class="number"></p1>   
                 </div>
 
                 <div class="col-md-4" id="B1">
-                   <h1></h1>
-                   <p><strong>Wins :</strong><span></span></p>
-                   <p><strong>Losses :</strong><span></span></p>   
+                   <h1 id="TXT"></h1>
+                   <p><strong>Wins :</strong><span id="W" class="number"></span></p>
+                   <p><strong>Losses :</strong><span id="L" class="number"></span></p>   
                 </div>
             </div>
             <br>
 
             <br>
             <div class="row">
-                <img src="assets/images/Rubystone.png" alt="image">
-                <img src="assets/images/green.png" alt="image">
-                <img src="assets/images/blue.png" alt="image">
-                <img src="assets/images/orange.png" alt="image">
+                <img src="assets/images/Rubystone.png" alt="image" id="red">
+                <img src="assets/images/green.png" alt="image" id="green">
+                <img src="assets/images/blue.png" alt="image" id="blue">
+                <img src="assets/images/orange.png" alt="image" id="orange">
             </div>
         </div>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script  type="text/javascript" src="assets/javascript/gamelogic.js"></script>
     </body>
 </html>
