@@ -1,0 +1,29 @@
+Body{
+    background: white;
+    
+}
+
+#HZ{
+    font-size: 75px;
+    color: black;
+    text-align: center;
+}
+
+#JZ{
+    background: beige;
+    text-align: center;
+
+}
+
+#B1{
+
+    border: 7px solid skyblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img{
+    padding: 10px 20px 10px 20px;
+    width: 20%;
+    height: 20%;
+}
